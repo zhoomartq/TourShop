@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="2" class="java.lang.String" itemvalue="Pillow" />
+            <item index="3" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="4" class="java.lang.String" itemvalue="sqlparse" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+          <option value="E302" />
+          <option value="E265" />
+          <option value="E127" />
+          <option value="E305" />
+          <option value="E402" />
+          <option value="E101" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.models.Genre.objects" />
+          <option value="main.models.Book.*" />
+          <option value="app_todo.models.Task.DoesNotExist" />
+          <option value="blog_api.models.Post.*" />
+          <option value="blog_api.models.Comment.*" />
+          <option value="shop_api.models.Post.*" />
+          <option value="shop_api.models.Comment.*" />
+          <option value="blog_api.models.Category.*" />
+          <option value="drf_yasg.openapi.Licence" />
+          <option value="type.without_ui" />
+          <option value="type.with_ui" />
+          <option value="main.views.vtu_models" />
+          <option value="lc.forms.my_models" />
+          <option value="lc.views.my_forms" />
+          <option value="lc.views.my_models" />
+          <option value="lc.views.vtu_models" />
+          <option value="lc.views.opition" />
+          <option value="post.urls.my_views" />
+          <option value="main.forms.my_models" />
+          <option value="main.views.opition" />
+          <option value="main.views.my_models" />
+          <option value="main.views.my_forms" />
+          <option value="pro.urls.my_views" />
+          <option value="main.models.Image.*" />
+          <option value="main.models.Recipe.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
